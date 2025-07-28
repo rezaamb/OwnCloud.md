@@ -33,3 +33,14 @@ Restart Apache:
 ```bash
 sudo systemctl restart apache2
 ```
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+In some cases, if the above solution does not work, you can get the answer by running the following command and then restarting Apache:
+```bash
+a2enmod rewrite
+```
+and then
+```bash
+service apache2 restart
+```
+
