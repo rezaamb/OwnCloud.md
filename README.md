@@ -1,10 +1,11 @@
-if you have "csrf check failed" error ypu should : 
+if you have "csrf check failed" error you should : 
 
 Open the Apache configuration file:
 
 ```bash
 sudo vim /etc/apache2/apache2.conf
 ```
+then ;
 
 ```
 <Directory /var/www/>
