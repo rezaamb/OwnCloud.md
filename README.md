@@ -1,4 +1,4 @@
-if you have * "csrf check failed"* error you should : 
+if you have "csrf check failed" error you should : 
 
 Open the Apache configuration file:
 
